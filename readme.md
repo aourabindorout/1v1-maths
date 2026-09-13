@@ -1,0 +1,3 @@
+# Real-Time Math Battle
+
+A real-time two-player math competition system built from the ground up using Python's standard library, raw TCP sockets, and `asyncio`, without web frameworks or third-party networking libraries. Players can create a private match room and receive a unique code that another player can use to join, after which both players compete in a 60-second math battle with concurrently submitted answers, server-side validation, real-time score updates, and a consistent final result. Match results and player statistics are persisted for future rankings, with the system designed to support multiple concurrent matches and ultimately be deployed on a persistent, zero-cost cloud infrastructure accessible through a public link.
